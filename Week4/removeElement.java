@@ -1,3 +1,4 @@
+//lam trong 30p
 class removeElement {
     public int removeElementSolve(int[] nums, int val) {
         int index = 0;

@@ -8,6 +8,8 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
+ //Co xem solution
 class removeDuplicateFromSortedList {
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null || head.next == null) {
