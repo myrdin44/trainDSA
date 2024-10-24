@@ -1,3 +1,4 @@
+//lam trong 13p, submit 8 lan
 class singleNumber {
     private void merge(int arr[], int left [], int right [], int lSize, int rSize) {
         int i = 0, j = 0, k = 0;

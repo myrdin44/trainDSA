@@ -1,4 +1,4 @@
-//Lam trong 20p
+//Lam trong 20p, submit 9 lan
 class mergeSortedArray {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int n1 [] = new int[m];
