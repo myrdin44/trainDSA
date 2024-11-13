@@ -26,13 +26,12 @@ class Result {
 
     for (int i = 0; i < B.size() - 1; i++) {
         if (B.get(i) % 2 != 0) {
-            B.set(i, B.get(i) + 1);      // Add 1 to current element
-            B.set(i + 1, B.get(i + 1) + 1); // Add 1 to the next element
-            count += 2; // Count two moves
+            B.set(i, B.get(i) + 1);      
+            B.set(i + 1, B.get(i + 1) + 1); 
+            count += 2; 
         }
     }
 
-    // Check if the last element is odd; if so, return "NO" since it's unsolvable
     if (B.get(B.size() - 1) % 2 != 0) {
         return "NO";
     }
